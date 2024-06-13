@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Akhbar El Yom Academy</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Akhbar El Yom Academy</h2>
+    <nav>
+      <ul>
+        <li><button onclick="showHome()">Home</button></li>
+        <li><button onclick="showNews()">News</button></li>
+        <li><button onclick="showContact()">Contact</button></li>
+        <li><button onclick="showAbout()">About Us</button></li>
+        <li><button onclick="showLogin()">Login</button></li>
+      </ul>
+    </nav>
+  </div>
+  
+  <div class="content">
+    <section id="home" class="section">
+      <h1>Home</h1>
+      <p>Welcome to Akhbar El Yoom Academy!</p>
+    </section>
+    
+    <section id="news" class="section">
+      <h1>News</h1>
+      <p>Stay updated with the latest news and events.</p>
+    </section>
+    
+    <section id="contact" class="section">
+      <h1>Contact</h1>
+      <p>Contact us for any inquiries or feedback.</p>
+    </section>
+    
+    <section id="about" class="section">
+      <h1>About Us</h1>
+      <p>Learn more about Akhbar El Yoom Academy.</p>
+    </section>
+    
+    <section id="login" class="section">
+      <h1>Login</h1>
+      <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <button type="submit">Login</button>
+      </form>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
